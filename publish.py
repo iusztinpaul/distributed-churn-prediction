@@ -4,7 +4,7 @@ jtm.publish(
     "Sparkify.ipynb",
     integration_token=None,
     pub_name=None,
-    title=None,
+    title="Churn Prediction Using Spark",
     tags=None,
     publish_status="draft",
     notify_followers=False,
