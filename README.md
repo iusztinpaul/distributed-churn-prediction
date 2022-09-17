@@ -54,7 +54,8 @@ Both files contain the following steps:
 The EDA component is only within the `Sparkify.ipynb` Notebook.
 You can look at the `EDA` within an exported PDF at `Sparkify.pdf`.
 
-Using `publish.py` we automatically pushed the Notebook to Medium.
+Using `publish.py` we automatically pushed the Notebook to Medium 
+(you can see how to set up `jupyter_to_medium` [here](https://pypi.org/project/jupyter-to-medium/)).
 
 ### Run
 #### Run Notebook
