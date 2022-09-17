@@ -54,15 +54,17 @@ Both files contain the following steps:
 The EDA component is only within the `Sparkify.ipynb` Notebook.
 You can look at the `EDA` within an exported PDF at `Sparkify.pdf`.
 
+Using `publish.py` we automatically pushed the Notebook to Medium.
+
 ### Run
 #### Run Notebook
-Run notebook with:
+Run the notebook with:
 ```shell
 jupyter notebook .
 ```
 
 #### Run Spark Script
-Run Spark python script with:
+Run the Spark Python script with:
 ```shell
 export PYSPARK_PYTHON=`which python`
 spark-submit --master localhost process.py

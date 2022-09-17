@@ -5,11 +5,13 @@ description = ""
 authors = ["IusztinPaul <p.e.iusztin@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 pyspark = {extras = ["sql"], version = "^3.3.0"}
 findspark = "^2.0.1"
 matplotlib = "^3.5.3"
 seaborn = "^0.12.0"
+jupyter-to-medium = "^0.2.10"
+Jinja2 = "3.0.0"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
