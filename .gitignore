@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data
+mini_sparkify_event_data.json
+
+# Spark
+spark-warehouse
+classifier

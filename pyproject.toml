@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "distributed-churn-prediction"
+version = "0.1.0"
+description = ""
+authors = ["IusztinPaul <p.e.iusztin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyspark = {extras = ["sql"], version = "^3.3.0"}
+findspark = "^2.0.1"
+matplotlib = "^3.5.3"
+seaborn = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
