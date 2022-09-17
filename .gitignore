@@ -134,3 +134,7 @@ mini_sparkify_event_data.json
 # Spark
 spark-warehouse
 classifier
+
+# IDEs
+.idea
+.vscode
