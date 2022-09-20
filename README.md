@@ -9,12 +9,15 @@
 6. [Licensing, Authors, Acknowledgements](#licensing)
 
 ## 1. Motivation <a name="motivation"></a>
-This project is a tutorial on how to train a churn prediction model using Spark. It contains a prototyping step within the notebook file.
+This project is a tutorial on how to train a `churn prediction model` using entirely `Spark`. It contains a prototyping step within the notebook file.
 Also, it shows how you can ship your research code into a Spark processing file that can be shipped into production.
+
+It uses a `music streaming dataset` based on a fictional company called Sparkify which contains all kinds of events created by the users who interacted with
+the platform.
 
 The training is done entirely with Spark, starting from the cleaning until the training and evaluation steps.
 
-![Listened Songs Distribution](/images/listened_songs_distribution.jpg)
+![Listened Songs Distribution](/images/registration_delta_distribution.jpg)
 
 ## 2. Installation <a name="installation"></a>
 ### Install Dependencies
@@ -78,11 +81,11 @@ The test split represents `20%` of the initial data.
 
 |        Model        | Validation |   Test   |
 |:-------------------:|:----------:|:--------:|
-| Logistic Regression |   0.6723   |  0.6294  |
-|     Naive Bayes     |   0.6723   |  0.6294  |
-|  Gradient Boosting  |  *0.7001*  | *0.6492* |
+| Logistic Regression |   0.6958   |  0.5952  |
+|     Naive Bayes     |   0.6672   |  0.5952  |
+|  Gradient Boosting  |  *0.7333*  | *0.8473* |
 
-The GBT model performed slightly better than the Logistic Regression and the Naive Bayes. 
+The GBT model performed better than the Logistic Regression and the Naive Bayes. 
 Probably, because it is a more complex model that can understand non-linear relationships better.
 
 ![Listened Songs Distribution](/images/visited_pages_distribution.jpg)
