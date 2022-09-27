@@ -88,7 +88,7 @@ The test split represents `20%` of the initial data.
 The GBT model performed better than the Logistic Regression and the Naive Bayes. 
 Probably, because it is a more complex model that can understand non-linear relationships better.
 
-**Note:** You can read a detailed examination of the results on [Medium](https://medium.com/@p.e.iusztin/this-is-how-you-can-quickly-build-a-churn-prediction-model-using-spark-69bc93fc9803).
+**Note:** You can read a detailed examination of the results on [Medium](https://pub.towardsai.net/this-is-how-you-can-build-a-churn-prediction-model-using-spark-e187b7eca339).
 
 ![Listened Songs Distribution](/images/visited_pages_distribution.jpg)
 
