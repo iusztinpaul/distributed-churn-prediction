@@ -97,4 +97,4 @@ The code is licensed under the MIT license. I encourage anybody to use and share
 I want to thank Udacity for its contribution to making the data available. Without their assistance, I would not have been able to train the models.
 
 If anybody has machine learning questions, suggestions, or wants to collaborate with me, feel free to contact me 
-at `p.b.iusztin@gmail.com` or to connect with me on [LinkedIn](https://www.linkedin.com/in/paul-iusztin-7a047814a/).
+at `p.b.iusztin@gmail.com` or to connect with me on [LinkedIn](https://www.linkedin.com/in/pauliusztin/).
